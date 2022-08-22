@@ -6,6 +6,44 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "teste123@gmail.com",
+      "password": "$2a$10$V3qaBgMpMGUc7S4PTSukOuxChWF208Qv4BHBjbY/Z7n6JnSKidfZa",
+      "id": 2
+    }
+  ],
+  "animals": [
+    {
+      "rescued": true,
+      "petname": "Filó",
+      "gender": "female",
+      "specie": "bird",
+      "identification": "123",
+      "id": 1
+    }
+  ],
+  "ransoms": [
+    {
+      "state": "Mato-Grosso",
+      "city": "Varzea Grande",
+      "employees": [
+        {
+          "name": "Helena",
+          "CPF": "11340857894"
+        },
+        {
+          "name": "Rodrigo",
+          "CPF": "13445465894"
+        }
+      ],
+      "animals-rescued": [
+        {
+          "name": "Filó",
+          "specie": "bird-blue",
+          "identification": "123"
+        }
+      ]
     }
   ]
 }
