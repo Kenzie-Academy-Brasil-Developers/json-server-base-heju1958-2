@@ -2,7 +2,7 @@
 
 Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Projetos Front-end.
 
-link da api https://api-rescue.herokuapp.com/
+link da API: https://api-rescue.herokuapp.com/
 
 ## Endpoints
 
@@ -32,6 +32,13 @@ Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do
 
 POST /login <br/>
 POST /signin
+
+Precisa ter os dados:
+
+{
+"email": string,
+"password": string,
+}
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
 
