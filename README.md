@@ -22,7 +22,7 @@ Precisa ter os dados:
 "name": string,
 "email": string,
 "password": string,
-"CPF": number,
+"CPF": string,
 }
 
 Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
